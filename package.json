@@ -4,7 +4,7 @@
   "description": "stop background tabs from loading!",
   "main": "js/background.js",
   "scripts": {
-    "build": "node ./version && ./node_modules/.bin/web-ext build"
+    "build": "node ./bin/sync.js && ./node_modules/.bin/web-ext build"
   },
   "repository": {
     "type": "git",
