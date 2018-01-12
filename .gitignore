@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# Ignore dist folder
+dist
+web-ext-artifacts

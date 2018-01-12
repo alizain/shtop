@@ -1,0 +1,22 @@
+{
+  "name": "shtop",
+  "version": "1.0.3",
+  "description": "stop background tabs from loading!",
+  "main": "js/background.js",
+  "scripts": {
+    "build": "node ./version && ./node_modules/.bin/web-ext build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alizain/shtop.git"
+  },
+  "author": "Alizain Feerasta",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/alizain/shtop/issues"
+  },
+  "homepage": "https://github.com/alizain/shtop#readme",
+  "devDependencies": {
+    "web-ext": "^2.3.1"
+  }
+}
